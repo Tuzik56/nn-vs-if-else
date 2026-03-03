@@ -160,13 +160,14 @@ __marimo__/
 Thumbs.db
 
 # SUMO output
-*.xml
+output/
 *.log
 *.csv
+*.xml
 *.sumocfg
-*.net.xml
-*.rou.xml
-*.trip.xml
+!src/nn_vs_if_else/sumo_project/
+!src/nn_vs_if_else/sumo_project/*.xml
+!src/nn_vs_if_else/sumo_project/*.sumocfg
 
 # Temporary simulation files
 output/

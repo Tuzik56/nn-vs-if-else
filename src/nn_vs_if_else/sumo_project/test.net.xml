@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-03-03T21:18:17.706094+03:00 by Eclipse SUMO netedit 1.26.0
+<neteditConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
+
+    <input>
+        <sumocfg-file value="D:\Projects\nn-vs-if-else\src\nn_vs_if_else\sumo_project\test.sumocfg"/>
+        <sumo-net-file value="D:\Projects\nn-vs-if-else\src\nn_vs_if_else\sumo_project\test.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="D:\Projects\nn-vs-if-else\src\nn_vs_if_else\sumo_project\test.net.xml"/>
+    </output>
+
+    <processing>
+        <offset.disable-normalization value="true"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+    </junctions>
+
+    <netedit>
+        <new-network value="false"/>
+    </netedit>
+
+</neteditConfiguration>
+-->
+
+<net version="1.20" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="0.00,0.00" convBoundary="-46.35,6.32,32.08,6.49" origBoundary="10000000000.00,10000000000.00,-10000000000.00,-10000000000.00" projParameter="!"/>
+
+    <edge id="E0" from="J0" to="J1" priority="-1">
+        <lane id="E0_0" index="0" speed="13.89" length="78.43" shape="-46.35,4.72 32.08,4.89"/>
+    </edge>
+
+    <junction id="J0" type="dead_end" x="-46.35" y="6.32" incLanes="" intLanes="" shape="-46.35,6.32 -46.34,3.12"/>
+    <junction id="J1" type="dead_end" x="32.08" y="6.49" incLanes="E0_0" intLanes="" shape="32.09,3.29 32.08,6.49"/>
+
+</net>
