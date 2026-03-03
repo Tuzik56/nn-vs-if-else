@@ -1,0 +1,21 @@
+[project]
+name = "nn-vs-if-else"
+version = "0.1.0"
+description = "Comparison of neural network and if-else rules for maneuver selection in SUMO simulation"
+authors = [
+    {name = "Tuzik56",email = "kyznetsova_v04@mail.ru"}
+]
+packages = [
+    { include = "nn_vs_if_else", from = "src" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "numpy<2",
+    "matplotlib==3.7.2",
+    "traci==1.26.0",
+    "sumolib"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
